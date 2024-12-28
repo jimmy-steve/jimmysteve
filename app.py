@@ -1,12 +1,12 @@
 from flask import Flask
+from controllers.home import home_blueprint
 
+# Créer l'application Flask
 app = Flask(__name__)
 
+# Enregistrer le blueprint (contrôleur)
+app.register_blueprint(home_blueprint)
 
-@app.route('/')
-def hello_world():  # put application's code here
-    return 'Hello World!'
-
-
+# Exécution de l'application
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
