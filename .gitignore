@@ -1,0 +1,41 @@
+# Fichiers Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Environnements virtuels
+venv/
+env/
+*.env
+
+# Fichiers spécifiques à Flask
+instance/
+*.db
+
+# Fichiers de logs
+*.log
+
+# Fichiers de configuration de l'IDE
+.idea/
+.vscode/
+
+# Fichiers spécifiques à macOS
+.DS_Store
+
+# Fichiers spécifiques à Windows
+Thumbs.db
+
+# Fichiers spécifiques à Linux
+*.swp
+
+# Répertoires pour les fichiers de cache
+*.cache/
+*.tox/
+
+# Dossier de tests
+test/
+
+# Fichiers de dépendances
+Pipfile.lock
